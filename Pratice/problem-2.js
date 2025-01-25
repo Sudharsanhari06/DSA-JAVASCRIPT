@@ -1,11 +1,16 @@
-// Find last digit in a number
-let num=120;
-let ans=num%10;
-console.log("last digit",ans)
+let teamscore=150;
+let targetscore=145;
+let oversleft=0;
 
-
-
-
+if(teamscore>=targetscore){
+    console.log( "Team wins by DL method" );
+}
+else if(teamscore<targetscore && oversleft>0){
+    console.log("Match to be continued" );
+}
+else if(teamscore<targetscore && oversleft==0){
+    console.log("Team loses by DL method");
+}
 
 
 
