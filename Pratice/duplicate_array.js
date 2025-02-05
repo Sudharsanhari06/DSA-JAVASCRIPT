@@ -1,16 +1,15 @@
 let arr=[1,2,3,4,3,2,1,4,4];
-let narr=[];
+let newarr=[];
 for(let i=0;i<arr.length;i++){
-    let dupli=false;
-    for(let j=0;j<narr.length;j++){
-        if(arr[i]==narr[j]){
-            dupli=true;
-            break;
+let dupli=false;
+    for(let j=0;j<newarr.length;j++){
+        if(arr[i]==newarr[j]){
+            dupli=true; 
         }
-        }
+    }
 
-        if(!dupli){
-            narr.push(arr[i]);
-        }
+    if(!dupli){
+        newarr.push(arr[i]);
+    }
 }
-console.log(narr);
+console.log(newarr);

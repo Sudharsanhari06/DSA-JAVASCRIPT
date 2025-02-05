@@ -1,5 +1,4 @@
 // Take 2 numbers as inputs and find their HCF and LCM.
-
 function lcmandhcf(num1,num2){
     let min=num1<num2?num1:num2;
     let mul=num1*num2;
@@ -15,4 +14,9 @@ lcmandhcf(40,56)
 
 
 
+
+
+// the coprime number are cosecutive number
+// coprime numbers hcf in any number factor 1.
+//check the if the hcf == 1 its a coprime number
 

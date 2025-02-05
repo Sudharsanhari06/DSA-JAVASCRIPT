@@ -17,8 +17,5 @@ function arithmeticoperator(num1,num2,op){
 
     }
     
-
-
-
 }
 arithmeticoperator(5,2,"/")

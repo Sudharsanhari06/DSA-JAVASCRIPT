@@ -1,3 +1,4 @@
+// /capital letter to convert lowercase;
 let s="SUDHARsan";
 let str="";
 for(let i=0;i<=s.length-1;i++){
