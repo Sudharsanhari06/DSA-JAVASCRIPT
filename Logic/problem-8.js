@@ -1,0 +1,9 @@
+// lcm of two numbesrs
+
+
+
+
+
+
+
+

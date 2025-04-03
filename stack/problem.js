@@ -5,6 +5,7 @@ class stack {
     push(num) {
         this.arr.push(num);
     }
+
     pop(){
         this.arr.pop();
     }
@@ -17,6 +18,7 @@ class stack {
 // creating object for stack class
 let mystack = new stack();
 mystack.push(20);
+mystack.push(30);
 console.log(mystack.peek());
 mystack.pop();
 console.log(mystack.peek());
